@@ -8,7 +8,7 @@ myDriver.maximize_window()
 myEdit = myDriver.find_element_by_name("q")
 myEdit.send_keys("Queue Codes Technology")
 
-myButton = myDriver.find_element_by_name("btnK")
-myButton.click()
+#myButton = myDriver.find_element_by_name("btnK")
+myEdit.send_keys(Keys.ENTER)
 
 print ("GM Push Test")
