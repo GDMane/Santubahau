@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-myDriver = webdriver.Chrome("E://Ganesh//Driver//chromedriver.exe")
+myDriver = webdriver.Chrome("E://GMtes//Santubhau//Drivers//chromedriver.exe")
 
 myDriver.get("https://www.google.com")
 myDriver.maximize_window()
