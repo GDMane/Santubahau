@@ -33,9 +33,11 @@ gmList.remove("gmList")
 print(gmList)#remove perticular object
 print("--------------")
 
+gmList1 = ["copyTest"]
+print(gmList1)
 gmList1 = gmList.copy()
 print(gmList1)
-print(gmList)
+print(gmList)#copy list to another list
 print("--------------")
 
 gmList.extend("1")
