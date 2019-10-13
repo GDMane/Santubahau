@@ -1,25 +1,20 @@
 
 print("Shree Swami Samarth")
-print("Collections (array)")
+print("For loop pattern")
 
-gmList = ['ganesh', 'ganesh', 'gmList']#duplicate allowed
-gmTuple = ('ganesh', 'ganesh', 'gmtuple')#duplicate allowed
-gmSet = {'ganesh', 'gmset','ganesh'}#duplicate not allowed, 'set' object does not support indexing
-gmDict = {
-    "ganesh": "mane",
-    "birthyear" : 1994,
-    "ganesh1":"mane1",
-}#duplicate not allowed, key value pair
+gm = ["*","**","***"]
+gm1 = ["*"]
 
-'''print(gmList[0])
-print("--------------")
-print(gmTuple[0])
-print("--------------")
-print(gmSet)
-print("--------------")
-print(gmDict)'''
+for i in gm:
+    pass
+else:
+    pass
 
-gmDict["ganesh1"] = "updateTest"
+gmDict = {"1" : "Ganesh",
+         "2" : "Mane"}
 
-print(gmDict)
-print("--------------")
+for k in gmDict:
+    print("Keys in dict", k)
+
+for k, v in gmDict.items():
+    print("Values in dict", v)
